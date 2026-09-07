@@ -1166,6 +1166,11 @@
       "type":"block"
     },
     {
+      "name":"treated_wood_scaffolding",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/wooden_decoration_scaffolding.png",
+      "type":"block"
+    },
+    {
       "name":"wooden_device_barrel_side",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/wooden_device_barrel_side.png",
       "type":"block"

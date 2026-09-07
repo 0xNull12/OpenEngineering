@@ -165,6 +165,10 @@ public class ModBlocks {
     public static final Block ALUMINUM_SCAFFOLDING_3 = createTransparentBlock(Material.ROCK, "aluminum_scaffolding_3");
     public static final Block ALUMINUM_SCAFFOLDING_3_STAIRS = createStairs(ALUMINUM_SCAFFOLDING_3);
 
+
+    public static final Block TREATED_WOOD_SCAFFOLDING = createTransparentBlock(Material.ROCK, "treated_wood_scaffolding");
+    public static final Block TREATED_WOOD_SCAFFOLDING_STAIRS = createStairs(TREATED_WOOD_SCAFFOLDING);
+
     public static final Block STEEL_LADDER = new BlockMetalLadder();
 
 
@@ -402,6 +406,9 @@ public class ModBlocks {
         Registry.addBlock(ALUMINUM_SCAFFOLDING_2_STAIRS); Registry.addOre("scaffoldingAluminumStairs", ALUMINUM_SCAFFOLDING_2_STAIRS.getRegistryName());
         Registry.addBlock(ALUMINUM_SCAFFOLDING_3); Registry.addOre("scaffoldingAluminum", ALUMINUM_SCAFFOLDING_3.getRegistryName());
         Registry.addBlock(ALUMINUM_SCAFFOLDING_3_STAIRS); Registry.addOre("scaffoldingAluminumStairs", ALUMINUM_SCAFFOLDING_3_STAIRS.getRegistryName());
+
+        Registry.addBlock(TREATED_WOOD_SCAFFOLDING); Registry.addOre("scaffoldingTreatedWood", TREATED_WOOD_SCAFFOLDING.getRegistryName());
+        Registry.addBlock(TREATED_WOOD_SCAFFOLDING_STAIRS); Registry.addOre("scaffoldingTreatedWoodStairs", TREATED_WOOD_SCAFFOLDING_STAIRS.getRegistryName());
 
         Registry.addBlock(STEEL_LADDER);
 
